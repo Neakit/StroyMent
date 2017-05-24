@@ -1,0 +1,47 @@
+div.main
+  div.page_container
+    div#immersive_slider
+      div.slide(data-blurred = "../vendor/img/slide1_guass.jpg")
+        div.content
+          h2
+            a(href="#" target="_blank") О НАС
+          p.
+            Наша компания занимается оптовой и розничной торговлей строительными материалами, строй инструментом, строй техникой, разработкой проектов и т.д.            
+        div.image
+          a(href="#" target="_blank")
+          img(src="../vendor/img/slide1.jpg" alt="Slider 1")  
+   
+      div.slide(data-blurred="../vendor/img/slide2_guass.jpg")
+        div.content
+          h2
+            a(href="#" target="_blank") Наша работа
+          p.
+            Мы занимаемся оптовой торговлей строительных материалов, водопроводного и отопительного оборудования и принадлежностями, лакокрасочных материалов, напольных покрытий и т.д.            
+        div.image
+         a(href="#" target="_blank")
+         img(src="../vendor/img/slide2.jpg" alt="Slider 1")
+          
+      div.slide(data-blurred="../vendor/img/slide3_gauss.jpg")
+        div.content
+          h2
+            a(href="#" target="_blank") Высокое качество
+          p.
+            У вас есть желание сделать качественный и капитальный ремонт? Ваша квартира стала серой и не уютной? Тогда мы рады предложить Вам наши услуги высокого качества и за приемлемые цены!   
+        div.image
+          a(href="#" target="_blank")
+          img(src="../vendor/img/slide3.jpg" alt="Slider 1")
+          
+      a.is-prev(href="#") &laquo;
+      a.is-next(href="#") &raquo;
+      
+
+    
+
+      
+script(type="text/javascript").
+  $(document).ready( function() {
+    $("#immersive_slider").immersive_slider({
+      container: ".main"
+    });
+  });
+

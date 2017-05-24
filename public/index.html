@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>StroyMent</title>
+    <link rel="stylesheet" href="style/index.css">
+    <meta name="description" content="Стройматериалы">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Neakit">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../vendor/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="../vendor/jquery.immersive-slider.js"></script>
+    <link href="../vendor/immersive-slider.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-contact">
+        <h1>StroyMent</h1><span>
+          <li><img src="../vendor/img/phone.svg" alt=""><a href="#">+7(967)048-00-03</a></li>
+          <li><img src="../vendor/img/mail.svg" alt=""><a href="#">romikrd@mail.ru</a></li></span>
+      </div><img src="../vendor/img/logo1.png" alt="logo">
+      <h2>Все строительные материалы в одном месте!</h2>
+      <p>Сайт находится в разработке   </p>
+    </div>
+    <div class="main">
+      <div class="page_container">
+        <div id="immersive_slider">
+          <div class="slide" data-blurred="../vendor/img/slide1_guass.jpg">
+            <div class="content">
+              <h2><a href="#" target="_blank">О НАС</a></h2>
+              <p>Наша компания занимается оптовой и розничной торговлей строительными материалами, строй инструментом, строй техникой, разработкой проектов и т.д.            </p>
+            </div>
+            <div class="image"><a href="#" target="_blank"></a><img src="../vendor/img/slide1.jpg" alt="Slider 1"></div>
+          </div>
+          <div class="slide" data-blurred="../vendor/img/slide2_guass.jpg">
+            <div class="content">
+              <h2><a href="#" target="_blank">Наша работа</a></h2>
+              <p>Мы занимаемся оптовой торговлей строительных материалов, водопроводного и отопительного оборудования и принадлежностями, лакокрасочных материалов, напольных покрытий и т.д.            </p>
+            </div>
+            <div class="image"><a href="#" target="_blank"></a><img src="../vendor/img/slide2.jpg" alt="Slider 1"></div>
+          </div>
+          <div class="slide" data-blurred="../vendor/img/slide3_gauss.jpg">
+            <div class="content">
+              <h2><a href="#" target="_blank">Высокое качество</a></h2>
+              <p>У вас есть желание сделать качественный и капитальный ремонт? Ваша квартира стала серой и не уютной? Тогда мы рады предложить Вам наши услуги высокого качества и за приемлемые цены!   </p>
+            </div>
+            <div class="image"><a href="#" target="_blank"></a><img src="../vendor/img/slide3.jpg" alt="Slider 1"></div>
+          </div><a class="is-prev" href="#">&laquo;</a><a class="is-next" href="#">&raquo;</a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(document).ready( function() {
+        $("#immersive_slider").immersive_slider({
+          container: ".main"
+        });
+      });
+    </script>
+    <div class="flex-container">
+      <div class="flex-item" style="background-image: url(../vendor/img/goods/materials.jpg);">       
+        <div class="item-wrapper">
+          <h3>Строительные материалы         </h3>
+          <li><a href="#">ЖБИ, бетон</a></li>
+          <li><a href="#">Кирпич, блоки, стеновые материалы</a></li>
+          <li><a href="#">Песок, щебень, гравий          </a></li>
+          <li> <a href="#">Тепло-, Звуко-, Гидроизоляционные материалы</a></li>
+          <li> <a href="#">Сухие строительные смеси  </a></li>
+          <li><a href="#">Подробнее или заказать прайс</a></li>
+        </div>
+      </div>
+      <div class="flex-item" style="background-image: url(../vendor/img/goods/decoration.jpg);">
+        <div class="item-wrapper">
+          <h3>Отделочные материалы         </h3>
+          <li><a href="#">Отделочные панели</a></li>
+          <li><a href="#">Потолки</a></li>
+          <li><a href="#">Гипсокартонные системы, комплектующие          </a></li>
+          <li> <a href="#">Керамичесская и каменная плитка</a></li>
+          <li> <a href="#">Покрытия для пола</a></li>
+          <li><a href="#">Подробнее или заказать прайс</a></li>
+        </div>
+      </div>
+      <div class="flex-item" style="background-image: url(../vendor/img/goods/chem.jpg);">
+        <div class="item-wrapper">
+          <h3>Строительная химия         </h3>
+          <li><a href="#">Лакокрасочные материалы</a></li>
+          <li><a href="#">Добавки в бетон</a></li>
+          <li><a href="#">Мастика гидроизоляционная          </a></li>
+          <li> <a href="#">Грунтовки, шпатлевки, штукатурки, герметик</a></li>
+          <li> <a href="#">Сухие строительные смеси</a></li>
+          <li><a href="#">Подробнее или заказать прайс</a></li>
+        </div>
+      </div>
+      <div class="flex-item" style="background-image: url(../vendor/img/goods/roof.jpg);">
+        <div class="item-wrapper">
+          <h3>Кровельные материалы        </h3>
+          <li><a href="#">Черепица</a></li>
+          <li><a href="#">Профнастил</a></li>
+          <li><a href="#">Рубероид          </a></li>
+          <li> <a href="#">Шифер</a></li>
+          <li> <a href="#">Фальцевая кровля</a></li>
+          <li><a href="#">Подробнее или заказать прайс        </a></li>
+        </div>
+      </div>
+      <div class="flex-item" style="background-image: url(../vendor/img/goods/tools.jpg);">
+        <div class="item-wrapper">
+          <h3>Строительный инструмент        </h3>
+          <li><a href="#">Ручной и механичесский инструмент</a></li>
+          <li><a href="#">Термоинструмент</a></li>
+          <li><a href="#">Садовый инструмент          </a></li>
+          <li> <a href="#">Инструмент для дачи</a></li>
+          <li> <a href="#">Электрический инструмент</a></li>
+          <li><a href="#">Подробнее или заказать прайс</a></li>
+        </div>
+      </div>
+      <div class="flex-item" style="background-image: url(../vendor/img/goods/plumbing.jpg);">
+        <div class="item-wrapper">
+          <h3>Сантехнические принадлежности        </h3>
+          <li><a href="#">Ванны, душевые кабины, умывальники и мойки</a></li>
+          <li><a href="#">Сифоны</a></li>
+          <li><a href="#">Инсталляционные системы          </a></li>
+          <li> <a href="#">Смесители</a></li>
+          <li> <a href="#">Унитазы</a></li>
+          <li><a href="#">Подробнее или заказать прайс</a></li>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>StroyMent        </h3>
+        <p class="footer-company-name">StroyMent &copy; 2017</p>
+      </div>
+      <div class="footer-center">
+        <div>         
+          <p>Лялин переулок, 1/36с2 Москва, Россия</p>
+        </div>
+        <div>         
+          <p>105062</p>
+        </div>
+        <div>         <a href="#">romikrd@mail.ru</a></div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-company-about"><span>Информация для справок Регистрационный номер предприятия: 317774600175024.</span></div>
+        <div class="footer-icons">        
+          <div><img src="../vendor/img/phone.svg" alt=""><a href="#">+7(967)048-00-03</a></div>
+          <div><img src="../vendor/img/mail.svg" alt=""><a href="#">romikrd@mail.ru </a></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
