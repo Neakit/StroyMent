@@ -1,8 +1,6 @@
-#### install
-`npm install`
+# business card website for building company
 
-#### build for production
-`npm run build`
+[Demo](http://stroyment.ru/)
 
-#### build for development (builds and starts watchers)
-`npm run dev`
+
+
