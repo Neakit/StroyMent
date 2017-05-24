@@ -1,6 +1,6 @@
 ## Business card website for building company
 ### Made with pug and scss
-[Demo](http://stroyment.ru/)
+[Demo without pug and scss](http://stroyment.ru/)
 
 
 
